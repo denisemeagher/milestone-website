@@ -1,0 +1,166 @@
+/****** Base styles ******/
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #444040;
+  color: #fff;
+  font-size: 16px;
+}
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Limelight', cursive;
+  text-transform: uppercase;
+  font-size: 80px;
+  text-align: center;
+  width: 550px;
+  padding: 200px 0 25px 50px;
+  margin-top: 0;
+}
+
+h2 {
+margin-top: 0;
+padding-top: 50px;
+text-transform: uppercase;
+font-family: 'Limelight', cursive;
+font-size: 50px;
+text-align: center;
+}
+
+
+h3 {
+  font-family: 'Nixie One', cursive;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.excerpt {
+  font-size: 12px;
+  font-style: italic;
+}
+
+/** Header Section **/
+Header {
+  margin-top: 0;
+  height: 800px;
+  background: url('../img/hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/**** NAV section ****/
+
+nav {
+  margin-right: 350px;
+  float: right;
+  padding: 25px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    font-family: 'Nixie One', cursive;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul li a:hover {
+  color: #FFB53C;
+}
+
+/**** WORK section ****/
+
+#work {
+  background-color: #034B61;
+  height: 1700px;
+}
+
+#work .half-width {
+  height: 500px;
+}
+
+#work .half-width .work-content-right {
+  padding: 40px 0 0 50px;
+  width: 450px;
+}
+
+#work .half-width .work-content-left {
+  padding: 20px 10px 0 0;
+  text-align: right;
+  width: 450px;
+  float: right;
+}
+
+#work h2 {
+  color: #FFB53C;
+}
+
+/**** ABOUT section ****/
+
+#about {
+    height: 750px;
+    background: url('../img/inspo.jpg');
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+#about .half-width {
+  width: 550px;
+  height: 475px;
+  margin-left: 25px;
+   background: linear-gradient(to top, rgba(255,181,60,.75) 7%,rgba(255,181,60,.75) 7%,rgba(255,181,60,.75) 17%,rgba(255,68,60,.75) 96%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+; */
+}
+
+#about h3 {
+  text-align: center;
+}
+
+#about p {
+  padding: 10px 20px;
+}
+
+
+
+/***** CONTACT section ***/
+
+#contact {
+  height: 500px;
+  background-color: #2f2f2f;
+  text-align: center;
+}
+
+.third-width h3 {
+  color: #FF443C;
+  text-align: center;
+}
+
+.icon {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 12px;
+  color: #7c7c7c;
+}
